@@ -8,7 +8,7 @@ Este projeto é para carregamento de posts em ajax sem a necessidade de carregar
 
 ### Como começar
 
-Crie um arquivo `bower.json` na pasta do seu tema WordPress conforme abaixo.
+Crie um arquivo `bower.json` na pasta do seu tema WordPress, copie o código conforme abaixo.
 
 ### Entendendo o arquivo bower.json
 
@@ -49,7 +49,7 @@ Crie um arquivo `bower.json` na pasta do seu tema WordPress conforme abaixo.
 
 Quando for executado o `bower install`, por padrão os arquivos são gerados em uma pasta `bower_components`. Neste caso vamos definir um diretório de instalação.
 
-Crie então um arquivo com o nome `.bowerrc` no seu tema. Essa configuração ficará responsável por definir a pasta que será gerada no momento da instalação.
+Crie então um arquivo com o nome `.bowerrc` no seu tema e copie conforme eu mostro abaixo. Essa configuração ficará responsável por definir a pasta que será gerada no momento da instalação. (Lembre-se de criar o arquivo com o "ponto").
 
 
 ### Entendendo o arquivo .bowerrc
