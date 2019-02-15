@@ -70,5 +70,5 @@ Após criado os 2 arquivos necessários, vamos executar o famoso `bower install`
 
 Você vai encontrar uma pasta chamada "modules" na pasta do seu tema. Também irá encontrar um arquivo nesta página chamado `config.php`.
 
-Neste arquivo existem 7 etapas, siga as instruções deste arquivo para realizar a configuração do carregamento ajax em seu projeto.
+Neste arquivo existem 9 etapas, siga as instruções deste arquivo para realizar a configuração do carregamento ajax em seu projeto.
 
