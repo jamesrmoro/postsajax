@@ -1,12 +1,16 @@
 # Carregamento de posts ajax para WordPress
 
-Este projeto é para carregamento de posts em ajax sem a necessidade de carregar a página. O carregamento é feito por meio do scroll
+Este projeto é para carregamento de posts em ajax sem a necessidade de carregar a página. O carregamento é feito por meio do scroll.
+
+## Necessário para este projeto
+
+* [Bower](https://bower.io/) - A package manager for the web
 
 ## Como começar
 
-Crie um arquivo bower.json na pasta do seu tema WordPress
+Crie um arquivo `bower.json` na pasta do seu tema WordPress conforme abaixo.
 
-### Como configurar o arquivo - bower.json
+### Entendendo o arquivo bower.json
 
 ```javascript
 // isso é um comentário! apenas para explicar que estamos definindo algumas coisas, como o caminho do diretório, autor, etc :)
@@ -41,14 +45,14 @@ Crie um arquivo bower.json na pasta do seu tema WordPress
 
 ---
 
-## Configurando o caminho de download dos arquivos
+## Entendendo o caminho de download dos arquivos
 
-Quando for executado o `bower install` por padrão os arquivos são gerados em uma pasta `bower_components`. Neste caso vamos definir um diretório de instalação.
+Quando for executado o `bower install`, por padrão os arquivos são gerados em uma pasta `bower_components`. Neste caso vamos definir um diretório de instalação.
 
-Crie então um arquivo com o nome `.bowerrc` no seu tema.
+Crie então um arquivo com o nome `.bowerrc` no seu tema. Essa configuração ficará responsável por definir a pasta que será gerada no momento da instalação.
 
 
-### Como configurar o arquivo - .bowerrc
+### Entendendo o arquivo .bowerrc
 
 ```javascript
 // isso é um comentário! apenas para explicar que será criado a pasta modules :)
@@ -58,7 +62,13 @@ Crie então um arquivo com o nome `.bowerrc` no seu tema.
 }
 ```
 
+### Hora da instalação :)
+
+Após criado os 2 arquivos necessários, vamos executar o famoso `bower install`. Vá até a pasta do seu tema e execute o comando `bower install`.
+
 ### Após executar o bower install
 
 Você vai encontrar uma pasta chamada "modules" na pasta do seu tema. Também irá encontrar um arquivo nesta página chamado `config.php`.
+
+Siga as instruções deste arquivo para deixar realizar a configuração do carregamento ajax
 
