@@ -1,13 +1,13 @@
 {
   "name": "ajaxPosts",
   "homepage": "https://github.com/jamesrmoro/postsajax",
-  "_release": "90bc20d451",
+  "_release": "c62fa026b0",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "90bc20d451640dd2e181a51678761d25ec9637ed"
+    "commit": "c62fa026b03ace5dd38d2230d2f30c03b6022b60"
   },
-  "_source": "git@github.com:jamesrmoro/postsajax.git",
+  "_source": "https://github.com/jamesrmoro/postsajax.git",
   "_target": "*",
-  "_originalSource": "git@github.com:jamesrmoro/postsajax.git"
+  "_originalSource": "https://github.com/jamesrmoro/postsajax.git"
 }

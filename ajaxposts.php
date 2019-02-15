@@ -1,7 +1,8 @@
 <?php
 
 function loadAjax( $atts ){
-	return "<div class='list-posts-js'></div><div class='scroll-js' style='display: block;border:1px solid red;position: fixed;right:50px;bottom: 50px;height:20px;width: 100px;'></div>";
+  include (TEMPLATEPATH . '/modules/ajaxPosts/config.php');
+	return "<div class='list-posts-js $class2'></div><div class='scroll-js' style='display: block;border:1px solid red;position: fixed;right:50px;bottom: 50px;height:20px;width: 100px;'></div>";
 }
 add_shortcode( 'ajaxPosts', 'loadAjax' );
 
@@ -21,7 +22,7 @@ function postsList(){ ?>
 
     <?php if ($posts->have_posts()): ?>
       <?php while($posts->have_posts()) : $posts->the_post(); ?>
-      <div class="item">
+      <div class="item <?php echo $class1; ?>">
       	<?php include (TEMPLATEPATH . '/modules/ajaxPosts/content.php'); ?>
       </div>
   <?php endwhile; ?>

@@ -3,7 +3,7 @@ jQuery(function($){
 	var page = 1;
 	// Listar posts
 	var listarPostsAjax = function(page){
-		var url_site = "http://localhost/meuprojeto"
+		var url_site = "http://localhost/soma/organa"
 		$.ajax({
 			url : url_site + "/wp-admin/admin-ajax.php",
 			type: 'GET',

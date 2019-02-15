@@ -25,3 +25,11 @@ $post_type		= "post";
 ////// 7º PASSSO //////
 //Insira o shortcode abaixo sem o comentário de //, não se esqueça de por a tag de abertura e fechamento do php na página que deseja inserir o carregamento em ajax
 // echo do_shortcode('[ajaxPosts]');
+
+////// 8º PASSO //////
+//Informe abaixo a classe para o item do post.
+$class1		= "item-post";
+
+////// 9º PASSO //////
+//Informe abaixo a classe para o grupo do post.
+$class2		= "group";
