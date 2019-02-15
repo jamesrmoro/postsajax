@@ -2,11 +2,11 @@
 
 Este projeto é para carregamento de posts em ajax sem a necessidade de carregar a página. O carregamento é feito por meio do scroll.
 
-## Necessário para este projeto
+### Necessário para este projeto
 
 * [Bower](https://bower.io/) - A package manager for the web
 
-## Como começar
+### Como começar
 
 Crie um arquivo `bower.json` na pasta do seu tema WordPress conforme abaixo.
 
@@ -45,7 +45,7 @@ Crie um arquivo `bower.json` na pasta do seu tema WordPress conforme abaixo.
 
 ---
 
-## Entendendo o caminho de download dos arquivos
+### Entendendo o caminho de download dos arquivos
 
 Quando for executado o `bower install`, por padrão os arquivos são gerados em uma pasta `bower_components`. Neste caso vamos definir um diretório de instalação.
 
@@ -70,5 +70,5 @@ Após criado os 2 arquivos necessários, vamos executar o famoso `bower install`
 
 Você vai encontrar uma pasta chamada "modules" na pasta do seu tema. Também irá encontrar um arquivo nesta página chamado `config.php`.
 
-Siga as instruções deste arquivo para deixar realizar a configuração do carregamento ajax
+Neste arquivo existem 7 etapas, siga as instruções deste arquivo para realizar a configuração do carregamento ajax em seu projeto.
 
