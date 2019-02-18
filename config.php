@@ -14,7 +14,11 @@ $post_type		= "post";
 
 ////// 4º PASSO //////
 //Insira o código abaixo sem o comentário de // no functions.php do tema para que seja carregado o javascript
-// wp_enqueue_script('ajax', get_template_directory_uri() . '/modules/ajaxPosts/js/app.js', null, true);
+wp_enqueue_script('app', get_template_directory_uri() . '/modules/ajaxPosts/js/app.js', null, true);
+// wp_localize_script( 'app', 'ajaxPosts', array(
+//   'siteURL' => get_site_url(),
+//   'siteTemplateUrl' => get_template_directory_uri(),
+// ));
 
 ////// 5º PASSO //////
 // No arquivo app.js que está no diretório modules/ajaxPosts/js/ na linha número 6 informe o caminho do seu projeto
