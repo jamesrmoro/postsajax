@@ -2,6 +2,7 @@ jQuery(function($){
 
 	var page = 1;
 	// Listar posts
+
 	var listarPostsAjax = function(page){
 		$.ajax({
 			url : ajaxPosts.siteURL + "/wp-admin/admin-ajax.php",
