@@ -3,6 +3,8 @@ jQuery(function($){
 	var page = 1;
 	// Listar posts
 	var listarPostsAjax = function(page){
+
+		var loading = '<img class="post-ajax-loader" width="50px" src="'+ ajaxPosts.siteTemplateUrl +'/images/loading.svg">';
 		$.ajax({
 			url : ajaxPosts.siteURL + "/wp-admin/admin-ajax.php",
 			type: 'GET',
@@ -11,6 +13,7 @@ jQuery(function($){
 				page: page
 			},
 			success:function(resposta){
+				jQuery('.post-ajax-loader').remove();
 				if ($(resposta).hasClass('item')) {
 		  			$(".list-posts-js").append(resposta);
 		  			pagestatus = false
